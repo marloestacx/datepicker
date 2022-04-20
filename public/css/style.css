@@ -1,0 +1,14 @@
+body {
+  background-color: lightyellow;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+button {
+  padding: 1em;
+}
