@@ -7,8 +7,27 @@ app.set("views", "./views");
 
 app.use(express.static("public"));
 
+var options = {
+  weekday: "long",
+  month: "long",
+  day: "numeric",
+};
+
 app.get("/", (req, res) => {
-  res.render("index", {});
+  let days = [];
+  let today = new Date();
+  //add today to array
+  days.push(today.toLocaleDateString("nl-NL", options));
+
+  //add next 6 days to array
+  for (let i = 0; i < 6; i++) {
+    today.setDate(today.getDate() + 1);
+    days.push(today.toLocaleDateString("nl-NL", options));
+  }
+
+  console.log(days);
+
+  res.render("index", { data: days });
 });
 
 app.listen(port, () => {
