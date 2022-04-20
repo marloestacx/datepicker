@@ -1,14 +1,29 @@
 body {
   background-color: lightyellow;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 section {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 button {
   padding: 1em;
+  width: 10em;
+  height: 8em;
+  margin: 2em 1em 0 1em;
+}
+
+button:focus {
+  background-color: #4287f5;
+  color: white;
+}
+
+button:active {
+  background-color: #4287f5;
+  color: white;
 }
