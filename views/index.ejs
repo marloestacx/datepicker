@@ -1,46 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/style.css" />
-    <title>Document</title>
+    <%- include('./components/head.ejs') -%>
   </head>
   <body>
     <header>
       <h1>Reisplanner</h1>
     </header>
     <main>
-      <form>
+      <form action="/" method="POST">
         <h2>Op welke dag reis je?</h2>
         <section>
-          <% data.forEach(function(item){%>
-          <button type="button" name="days" value="<%-item-%>">
-            <%-item-%>
-          </button>
-          <%}) %>
+          <select name="days" id="days">
+            <% data.forEach(function(item){%>
+            <option value="<%-item-%>"><%-item-%></option>
+            <%-item-%> <%}) %>
+          </select>
         </section>
         <h2>Wanneer reis je?</h2>
         <section>
-          <button>'s ochtends</button>
-          <button>'s middags</button>
+          <input type="time" name="time" id="time" value="12:00" />
         </section>
-        <section>
-          <button>1</button>
-          <button>2</button>
-          <button>3</button>
-          <button>4</button>
-          <button>5</button>
-          <button>6</button>
-          <button>7</button>
-          <button>8</button>
-          <button>9</button>
-          <button>10</button>
-          <button>11</button>
-          <button>12</button>
-        </section>
-        <button onclick="saveValues()" type="submit">Opslaan</button>
+        <button onclick="saveValues()">Opslaan</button>
       </form>
     </main>
     <script src="/scripts/script.js"></script>
