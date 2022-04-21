@@ -25,9 +25,16 @@ app.get("/", (req, res) => {
     days.push(today.toLocaleDateString("nl-NL", options));
   }
 
-  console.log(days);
-
   res.render("index", { data: days });
+});
+
+app.post("/", function (req, res) {
+  res.redirect("/end");
+});
+
+// send page
+app.get("/end", (req, res) => {
+  res.render("end");
 });
 
 app.listen(port, () => {
