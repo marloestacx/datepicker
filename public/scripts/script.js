@@ -30,8 +30,6 @@
 const saveValues = () => {
   const inputs = document.querySelectorAll("input");
 
-  console.log("test");
-
   // save text fields
   inputs.forEach((input) => {
     localStorage.setItem(input.name, input.value);
