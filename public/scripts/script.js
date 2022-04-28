@@ -38,7 +38,7 @@ const saveValues = () => {
 
 //keys
 document.onkeydown = function keyPress(event) {
-  if (event.key == "j" || event.key == "ArrowDown") {
+  if (event.key == "j") {
     const focused = document.querySelector(":focus");
     if (!focused) {
       document.querySelector("select:first-of-type").focus();
@@ -53,7 +53,7 @@ document.onkeydown = function keyPress(event) {
         document.getElementById("save").focus();
       }
     }
-  } else if (event.key == "k" || event.key == "ArrowUp") {
+  } else if (event.key == "k") {
     const focused = document.querySelector(":focus");
     if (!focused) {
       document.querySelector("select:first-of-type").focus();
