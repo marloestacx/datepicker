@@ -67,8 +67,7 @@ document.onkeydown = function keyPress(event) {
       document.querySelector("select:first-of-type").focus();
     } else {
       if (focused.id == "departure") {
-        console.log("test2");
-        document.getElementById("time").focus();
+        document.getElementById("save").focus();
       } else if (focused.id == "arrive") {
         document.getElementById("departure").focus();
       } else if (focused.id == "days") {
