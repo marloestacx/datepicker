@@ -15,7 +15,15 @@ const getValues = () => {
   var departure = localStorage.getItem("departure");
   var arrive = localStorage.getItem("arrive");
   display.innerHTML =
-    day + " om " + time + " vanaf " + departure + " naar " + arrive;
+    "<h2>" +
+    day +
+    " om " +
+    time +
+    " vanaf " +
+    departure +
+    " naar " +
+    arrive +
+    "</h2>";
 };
 
 // save to localstorage

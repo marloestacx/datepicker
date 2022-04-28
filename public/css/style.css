@@ -1,5 +1,4 @@
 body {
-  background-color: #f5f9fa;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
@@ -15,16 +14,20 @@ h1 {
   text-align: center;
 }
 
-.form {
+.form,
+#items {
   background-color: #f5f9fa;
+  border-radius: 25px;
   display: flex;
-  flex: 0 auto;
+  /* flex: 0 auto; */
   justify-content: center;
   align-items: center;
   align-content: center;
   flex-direction: column;
-  width: 30em;
+  width: 45em;
+  padding: 1em 0;
   margin: 0 auto;
+  align-items: center;
 }
 
 select,
