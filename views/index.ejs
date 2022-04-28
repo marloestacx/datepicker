@@ -9,35 +9,35 @@
     </header>
     <main>
       <form action="/" method="POST">
-        <h2>Vanaf wel station</h2>
-        <section>
-          <select name="departure" id="departure">
-            <option value="Amsterdam">Amsterdam</option>
-            <option value="Rotterdam">Rotterdam</option>
-            <option value="Utrecht">Utrecht</option>
-          </select>
-        </section>
-        <h2>Naar welk station</h2>
-        <section>
-          <select name="arrive" id="arrive">
-            <option value="Amsterdam">Amsterdam</option>
-            <option value="Rotterdam">Rotterdam</option>
-            <option value="Utrecht">Utrecht</option>
-          </select>
-        </section>
-        <h2>Op welke dag reis je?</h2>
-        <section>
-          <select name="days" id="days">
-            <% data.forEach(function(item){%>
-            <option value="<%-item-%>"><%-item-%></option>
-            <%-item-%> <%}) %>
-          </select>
-        </section>
-        <h2>Wanneer reis je?</h2>
-        <section>
-          <input type="time" name="time" id="time" value="12:00" />
-        </section>
-        <button onclick="saveValues()">Opslaan</button>
+        <div class="form">
+          <h2>Vanaf wel station</h2>
+          <section>
+            <select name="departure" id="departure" onchange="changePlaceA()">
+              <option value="Amsterdam">Amsterdam</option>
+              <option value="Eindhoven">Eindhoven</option>
+            </select>
+          </section>
+          <h2>Naar welk station</h2>
+          <section>
+            <select name="arrive" id="arrive" onchange="changePlaceB()">
+              <option value="Eindhoven">Eindhoven</option>
+              <option value="Amsterdam">Amsterdam</option>
+            </select>
+          </section>
+          <h2>Op welke dag reis je?</h2>
+          <section>
+            <select name="days" id="days">
+              <% data.forEach(function(item){%>
+              <option value="<%-item-%>"><%-item-%></option>
+              <%-item-%> <%}) %>
+            </select>
+          </section>
+          <h2>Wanneer reis je?</h2>
+          <section>
+            <input type="time" name="time" id="time" value="12:00" />
+          </section>
+          <button id="save" onclick="saveValues()">Opslaan</button>
+        </div>
       </form>
     </main>
     <script src="/scripts/script.js"></script>
