@@ -10,21 +10,21 @@
     <main>
       <form action="/" method="POST">
         <div class="form">
-          <h2>Vanaf wel station</h2>
+          <h2>Vanaf welk station?</h2>
           <section>
             <select name="departure" id="departure" onchange="changePlaceA()">
               <option value="Amsterdam">Amsterdam</option>
               <option value="Eindhoven">Eindhoven</option>
             </select>
           </section>
-          <h2>Naar welk station</h2>
+          <h2>Naar welk station?</h2>
           <section>
             <select name="arrive" id="arrive" onchange="changePlaceB()">
               <option value="Eindhoven">Eindhoven</option>
               <option value="Amsterdam">Amsterdam</option>
             </select>
           </section>
-          <h2>Op welke dag reis je?</h2>
+          <h2>Op welke dag?</h2>
           <section>
             <select name="days" id="days">
               <% data.forEach(function(item){%>
@@ -32,7 +32,7 @@
               <%-item-%> <%}) %>
             </select>
           </section>
-          <h2>Wanneer reis je?</h2>
+          <h2>Om hoelaat?</h2>
           <section>
             <input type="time" name="time" id="time" value="12:00" />
           </section>
