@@ -6,6 +6,15 @@ window.onload = () => {
   }
 };
 
+//time +1 hour
+let now = new Date(Date.now() + 1 * (60 * 60 * 1000));
+
+document.getElementById("time").value = now.toLocaleTimeString([], {
+  hour: "2-digit",
+  minute: "2-digit",
+  hour12: false,
+});
+
 // fill input fields
 const getValues = () => {
   const display = document.getElementById("items");
