@@ -15,7 +15,7 @@ if (
 ) {
   document.getElementById("time").value = now.toLocaleTimeString([], {
     hour: "2-digit",
-    minute: "2-digit",
+    minute: "00",
     hour12: false,
   });
 }
@@ -129,6 +129,88 @@ if (window.location.pathname === "/") {
           document.getElementById("train").focus();
         } else if (focused.id == "train") {
           document.getElementById("trainWork").focus();
+        }
+      }
+    }
+  };
+}
+
+if (window.location.pathname === "/books") {
+  //keys books
+  document.onkeydown = function keyPress(event) {
+    if (event.key == "j") {
+      const focused = document.querySelector(":focus");
+      console.log(focused);
+      if (!focused) {
+        document.querySelector("a:first-of-type").focus();
+      } else {
+        if (focused == document.querySelector("a:first-of-type")) {
+          document.querySelector("a:nth-of-type(2)").focus();
+        } else if (focused == document.querySelector("a:nth-of-type(2)")) {
+          document.querySelector("a:nth-of-type(3)").focus();
+        } else if (focused == document.querySelector("a:nth-of-type(3)")) {
+          document.querySelector("a:nth-of-type(4)").focus();
+        } else if (focused == document.querySelector("a:nth-of-type(4)")) {
+          document.querySelector("a:nth-of-type(5)").focus();
+        } else if (focused == document.querySelector("a:nth-of-type(5)")) {
+          document.querySelector("a:nth-of-type(6)").focus();
+        } else if (focused == document.querySelector("a:nth-of-type(6)")) {
+          document.querySelector("a:nth-of-type(7)").focus();
+        } else if (focused == document.querySelector("a:nth-of-type(7)")) {
+          document.querySelector("a:nth-of-type(8)").focus();
+        } else if (focused == document.querySelector("a:nth-of-type(8)")) {
+          document.querySelector("a:nth-of-type(9)").focus();
+        } else if (focused == document.querySelector("a:nth-of-type(9)")) {
+          document.querySelector("a:nth-of-type(10)").focus();
+        } else if (focused == document.querySelector("a:nth-of-type(10)")) {
+          document.querySelector("a:nth-of-type(11)").focus();
+        } else if (focused == document.querySelector("a:nth-of-type(11)")) {
+          document.querySelector("a:nth-of-type(12)").focus();
+        } else if (focused == document.querySelector("a:nth-of-type(12)")) {
+          document.querySelector("a:nth-of-type(13)").focus();
+        } else if (focused == document.querySelector("a:nth-of-type(13)")) {
+          document.querySelector("a:nth-of-type(14)").focus();
+        } else if (focused == document.querySelector("a:nth-of-type(14)")) {
+          document.querySelector("a:nth-of-type(15)").focus();
+        } else if (focused == document.querySelector("a:nth-of-type(15)")) {
+          document.querySelector("a:nth-of-type(1)").focus();
+        }
+      }
+    } else if (event.key == "k") {
+      const focused = document.querySelector(":focus");
+      if (!focused) {
+        document.querySelector("a:first-of-type").focus();
+      } else {
+        if (focused == document.querySelector("a:first-of-type")) {
+          document.querySelector("a:nth-of-type(15)").focus();
+        } else if (focused == document.querySelector("a:nth-of-type(15)")) {
+          document.querySelector("a:nth-of-type(14)").focus();
+        } else if (focused == document.querySelector("a:nth-of-type(14)")) {
+          document.querySelector("a:nth-of-type(13)").focus();
+        } else if (focused == document.querySelector("a:nth-of-type(13)")) {
+          document.querySelector("a:nth-of-type(12)").focus();
+        } else if (focused == document.querySelector("a:nth-of-type(12)")) {
+          document.querySelector("a:nth-of-type(11)").focus();
+        } else if (focused == document.querySelector("a:nth-of-type(11)")) {
+          document.querySelector("a:nth-of-type(10)").focus();
+        } else if (focused == document.querySelector("a:nth-of-type(10)")) {
+          document.querySelector("a:nth-of-type(9)").focus();
+        } else if (focused == document.querySelector("a:nth-of-type(9)")) {
+          document.querySelector("a:nth-of-type(8)").focus();
+        } else if (focused == document.querySelector("a:nth-of-type(8)")) {
+          document.querySelector("a:nth-of-type(7)").focus();
+        } else if (focused == document.querySelector("a:nth-of-type(7)")) {
+          document.querySelector("a:nth-of-type(6)").focus();
+        } else if (focused == document.querySelector("a:nth-of-type(6)")) {
+          document.querySelector("a:nth-of-type(5)").focus();
+        } else if (focused == document.querySelector("a:nth-of-type(5)")) {
+          document.querySelector("a:nth-of-type(4)").focus();
+        } else if (focused == document.querySelector("a:nth-of-type(4)")) {
+          document.querySelector("a:nth-of-type(3)").focus();
+        } else if (focused == document.querySelector("a:nth-of-type(3)")) {
+          document.querySelector("a:nth-of-type(2)").focus();
+        } else if (focused == document.querySelector("a:nth-of-type(2)")) {
+          document.querySelector("a:nth-of-type(1)").focus();
         }
       }
     }
