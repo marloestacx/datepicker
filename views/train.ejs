@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('./components/head.ejs') -%>
+  </head>
+  <body>
+    <header>
+      <h1>Reisplanner</h1>
+    </header>
+    <main>
+      <form action="/" method="POST">
+        <div class="form">
+          <h2>Vanaf welk station?</h2>
+          <section>
+            <select name="departure" id="departure" onchange="changePlaceA()">
+              <option value="Amsterdam">Amsterdam</option>
+              <option value="Eindhoven">Eindhoven</option>
+            </select>
+          </section>
+          <h2>Naar welk station?</h2>
+          <section>
+            <select name="arrive" id="arrive" onchange="changePlaceB()">
+              <option value="Eindhoven">Eindhoven</option>
+              <option value="Amsterdam">Amsterdam</option>
+
+              <option value="Eindhoven">Station Amsterdam Centraal</option>
+              <option value="Eindhoven">Station Utrecht Centraal</option>
+              <option value="Eindhoven">Station Rotterdam Centraal</option>
+              <option value="Eindhoven">Station Den Haag Centraal</option>
+              <option value="Eindhoven">Station Eindhoven</option>
+              <option value="Eindhoven">Station Leiden Centraal</option>
+              <option value="Eindhoven">Station Arnhem</option>
+              <option value="Eindhoven">Station Amsterdam Sloterdijk</option>
+              <option value="Eindhoven">Station Den Haag HS</option>
+              <option value="Eindhoven">Station Amersfoort</option>
+              <option value="Eindhoven">Station Amsterdam Zuid</option>
+              <option value="Eindhoven">Station ‘s Hertogenbosch</option>
+              <option value="Eindhoven">Station Amsterdam Amstel</option>
+              <option value="Eindhoven">Station Amsterdam Bijlmer ArenA</option>
+              <option value="Eindhoven">Station Groningen</option>
+              <option value="Eindhoven">Station Nijmegen</option>
+              <option value="Eindhoven">Station Zwolle</option>
+              <option value="Eindhoven">Station Breda</option>
+              <option value="Eindhoven">Station Haarlem</option>
+              <option value="Eindhoven">Station Tilburg</option>
+            </select>
+          </section>
+          <h2>Op welke dag?</h2>
+          <section>
+            <select name="days" id="days">
+              <% data.forEach(function(item){%>
+              <option value="<%-item-%>"><%-item-%></option>
+              <%-item-%> <%}) %>
+            </select>
+          </section>
+          <h2>Om hoelaat?</h2>
+          <section>
+            <input type="time" name="time" id="time" value="12:00" step="900" />
+          </section>
+          <button id="save" onclick="saveValues()">Opslaan</button>
+        </div>
+      </form>
+    </main>
+    <script src="/scripts/script.js"></script>
+  </body>
+</html>
