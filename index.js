@@ -67,7 +67,16 @@ app.get("/books", (req, res) => {
 
 // send page
 app.get("/end", (req, res) => {
-  res.render("end");
+  fetch(
+    `https://api.giphy.com/v1/gifs/search?api_key=JfBvMQf3o85aNLX8Bl5qoYOD0rzwjsMb&q=train&limit=25&offset=0&rating=g&lang=en`
+  )
+    .then((response) => response.json())
+    .then((data) => {
+      // console.log(data.data);
+      let gif = data.data[Math.floor(Math.random() * data.data.length)];
+      console.log(gif.embed_url);
+      res.render("end", { gif: gif });
+    });
 });
 
 app.listen(port, () => {
