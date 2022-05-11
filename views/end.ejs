@@ -4,7 +4,22 @@
     <%- include('./components/head.ejs') -%>
   </head>
   <body>
-    <div id="items"></div>
+    <main class="main">
+      <div class="center">
+        <div id="items"></div>
+        <section class="train">
+          <div style="width: 480px">
+            <iframe
+              allow="fullscreen"
+              frameBorder="0"
+              height="270"
+              src="<%-gif.embed_url-%>"
+              width="480"
+            ></iframe>
+          </div>
+        </section>
+      </div>
+    </main>
     <script src="/scripts/script.js"></script>
   </body>
 </html>
