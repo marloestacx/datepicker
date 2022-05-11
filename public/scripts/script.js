@@ -9,13 +9,24 @@ window.onload = () => {
 //time +1 hour
 let now = new Date(Date.now() + 1 * (60 * 60 * 1000));
 
+// round minutes up to 15 minute increments
+if (now.getMinutes() >= 15 && now.getMinutes() < 30) {
+  now.setMinutes(15, 0, 0);
+} else if (now.getMinutes() >= 30 && now.getMinutes() < 45) {
+  now.setMinutes(30, 0, 0);
+} else if (now.getMinutes() >= 45 && now.getMinutes() < 60) {
+  now.setMinutes(45, 0, 0);
+} else {
+  now.setMinutes(0, 0, 0);
+}
+
 if (
   window.location.pathname === "/train" ||
   window.location.pathname === "/trainwork"
 ) {
   document.getElementById("time").value = now.toLocaleTimeString([], {
     hour: "2-digit",
-    minute: "00",
+    minute: "2-digit",
     hour12: false,
   });
 }
@@ -140,7 +151,6 @@ if (window.location.pathname === "/books") {
   document.onkeydown = function keyPress(event) {
     if (event.key == "j") {
       const focused = document.querySelector(":focus");
-      console.log(focused);
       if (!focused) {
         document.querySelector("a:first-of-type").focus();
       } else {
