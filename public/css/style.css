@@ -4,21 +4,18 @@ body {
   background-image: url("/images/background.png");
   background-repeat: repeat;
 }
-/* 
-section {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-} */
 
-h1 {
+header {
   text-align: center;
   background-color: #f5f9fa;
   border-radius: 25px;
   padding: 1em 0;
-  width: 20em;
+  width: 45em;
   margin: 1em auto;
+}
+
+h2 {
+  padding: 0 1em;
 }
 
 .form,
@@ -59,6 +56,12 @@ button:active {
   background-color: #28cccb;
   color: white;
 }
+
+.main {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
 .home {
   display: flex;
   flex-direction: column;
@@ -69,6 +72,13 @@ button:active {
   padding: 1em 0;
   margin: 0 auto;
   align-items: center;
+}
+
+.home,
+.center {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .home a {
@@ -82,6 +92,12 @@ button:active {
   background-color: white;
   color: black;
   border: 2px solid #28cccb;
+}
+
+.train {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
 }
 
 button:focus,
