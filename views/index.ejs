@@ -4,41 +4,12 @@
     <%- include('./components/head.ejs') -%>
   </head>
   <body>
-    <header>
-      <h1>Reisplanner</h1>
-    </header>
     <main>
-      <form action="/" method="POST">
-        <div class="form">
-          <h2>Vanaf welk station?</h2>
-          <section>
-            <select name="departure" id="departure" onchange="changePlaceA()">
-              <option value="Amsterdam">Amsterdam</option>
-              <option value="Eindhoven">Eindhoven</option>
-            </select>
-          </section>
-          <h2>Naar welk station?</h2>
-          <section>
-            <select name="arrive" id="arrive" onchange="changePlaceB()">
-              <option value="Eindhoven">Eindhoven</option>
-              <option value="Amsterdam">Amsterdam</option>
-            </select>
-          </section>
-          <h2>Op welke dag?</h2>
-          <section>
-            <select name="days" id="days">
-              <% data.forEach(function(item){%>
-              <option value="<%-item-%>"><%-item-%></option>
-              <%-item-%> <%}) %>
-            </select>
-          </section>
-          <h2>Om hoelaat?</h2>
-          <section>
-            <input type="time" name="time" id="time" value="12:00" step="900" />
-          </section>
-          <button id="save" onclick="saveValues()">Opslaan</button>
-        </div>
-      </form>
+      <section class="home">
+        <a id="trainWork" href="/trainwork">Reisplanner werk</a>
+        <a id="train" href="/train">Reisplanner dagje weg</a>
+        <a id="books" href="/books">Boeken reccomondaties</a>
+      </section>
     </main>
     <script src="/scripts/script.js"></script>
   </body>
