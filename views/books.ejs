@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('./components/head.ejs') -%>
+  </head>
+  <body>
+    <header>
+      <h1>Boeken reccomondaties</h1>
+    </header>
+    <main>
+      <section class="books">
+        <% books.results.books.forEach(function(book){%>
+        <a href="<%-book.amazon_product_url-%>">
+          <img src="<%-book.book_image-%>" />
+        </a>
+        <%}) %>
+      </section>
+    </main>
+    <script src="/scripts/script.js"></script>
+  </body>
+</html>
