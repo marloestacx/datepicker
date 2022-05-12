@@ -2,6 +2,14 @@
 
 Een NS reisplanner speciaal voor Marijn.
 
+![reisplanner1](https://user-images.githubusercontent.com/24413936/168117429-765146b7-f2b4-4862-aff8-f1f7e655d1b0.png)
+
+![reisplanner2](https://user-images.githubusercontent.com/24413936/168117422-6e7591ce-df9f-4bfb-a726-863fadf83246.png)
+
+![reisplanner3](https://user-images.githubusercontent.com/24413936/168117413-cbb4f53b-86bd-4789-8a42-5fe3ef83eaa8.png)
+
+![reisplanner4](https://user-images.githubusercontent.com/24413936/168117380-3be7908e-08cf-44f9-8f71-9b1edbaa6287.png)
+
 ## User Needs
 
 Het project is gemaakt voor Marijn. Marijn reist voor zijn werk van Eindhoven naar Amsterdam en moet zich hiervoor altijd aanmelden odmat hij in een roelstoel zit. Dit aanmelden moet maximaal een uur van te voren.
@@ -40,6 +48,8 @@ Op de eind pagina als je je reis gepland heb krijg je een random gifje van een t
 
 ### Eerste test
 
+<img src="https://user-images.githubusercontent.com/24413936/168117695-1b3218dc-b119-4ded-b84c-c2b903d56fff.png" alt="drawing" width="600"/>
+
 ##### Bevindingen
 
 Marijn maakt vooral gebruik van de hjkl toetsen
@@ -55,6 +65,8 @@ anders heen.
 Ik ga mijn eerste prototype aanpassen, zo ga ik implementeren dat Marijn de hjkl toetsen kan gebruiken om te navigeren inplaats van de tab toets. Als hij Amsterdam selecteert wil ik dat het andere station automatisch naar Eindhoven veranderd. Ik wil toevoegen dat je de tijd alleen per 15 minuten kunt veranderen.
 
 #### Tweede test
+
+<img src="https://user-images.githubusercontent.com/24413936/168117851-17778ba2-03e9-47c0-9ee6-844af5906107.png" alt="drawing" width="600"/>
 
 ##### Bevindingen
 
