@@ -12,11 +12,11 @@ Een NS reisplanner speciaal voor Marijn.
 
 ## User Needs
 
-Het project is gemaakt voor Marijn. Marijn reist voor zijn werk van Eindhoven naar Amsterdam en moet zich hiervoor altijd aanmelden odmat hij in een roelstoel zit. Dit aanmelden moet maximaal een uur van te voren.
+Het project is gemaakt voor Marijn. Marijn reist voor zijn werk van Eindhoven naar Amsterdam en moet zich hiervoor altijd aanmelden omdat hij in een rolstoel zit. Dit aanmelden moet maximaal een uur van tevoren.
 
-Door zijn motorische stoornis gebruikt hij de computer anders dan mensen zonder een motorische stoornis. Hij maakt veel gebruik van de H J K en L toetsen om te navigeren. Hij vind de huidige datepicker bij de NS priegelig en wilt hier een verbeterde versie van die makkelijker voor hem te gebruiken is.
+Door zijn motorische stoornis gebruikt hij de computer anders dan mensen zonder een motorische stoornis. Hij maakt veel gebruik van de H J K en L toetsen om te navigeren. Hij vindt de huidige datepicker bij de NS priegelig en wilt hier een verbeterde versie van die makkelijker voor hem te gebruiken is.
 
-Marijn zei dat hij weinig tijd heeft voor hobbies maar wel houdt van bier, lezen een bandjes zien.
+Marijn zei dat hij weinig tijd heeft voor hobby's, maar wel houdt van bier, lezen een bandjes zien.
 
 ## Design Principles
 
@@ -30,19 +30,19 @@ Mijn eerste aannamen was eigenlijk dat hij de tab toets zou gebruiken, dit bleek
 
 De inclusieve principe??? zegt dat we conventies moeten gebruiken die iedereen herkent. Maar deze conventies werken niet altijd voor alle mensen. Deze conventies werken vaak niet voor niet-ontwerpers en mensen met een handicap daarom is het soms goed om deze te negeren.
 
-Marijn gebruikt bijvoorbeeld de tab toest niet, iets wat wordt geleerd dat mensen die geen muis gebruiken juist wel doen. Hierdoor heb ik dit vervangen en hij met de H toest omhoog kan en de J toets omlaag.
+Marijn gebruikt bijvoorbeeld de tab toets niet, iets wat wordt geleerd dat mensen die geen muis gebruiken juist wel doen. Hierdoor heb ik dit vervangen en hij met de H toets omhoog kan en de J toets omlaag.
 
 ### Prioritise Identity
 
-Het is goed als je iets voor iemand ontwerpt maar nog beter als je het met hem maakt.
+Het is goed als je iets voor iemand ontwerpt, maar nog beter als je het met hem maakt.
 
-Door de testen kreeg je te zien precies wat wel en niet werkt voor Martijn waardoor je de website voor hem kon maken. Omdat Martijn meestal naar zijn werk reist is er een aparte pagina voor zijn werk. Hiermee kan hij snel een reis naar zijn werk plannen zonder door alle stations te hoeven zoeken. Er is ook een pagina voor als hij een dagje uit gaat, hier kan hij kiezen uit de grooste stations. Als laatste hbe ik een boeken pagina toegevoegd, omdat Marijn van lezen houdt kan hij hier wat aanbevolen boeken vinden.
+Door de testen kreeg je te zien precies wat wel en niet werkt voor Martijn waardoor je de website voor hem kon maken. Omdat Martijn meestal naar zijn werk reist, is er een aparte pagina voor zijn werk. Hiermee kan hij snel een reis naar zijn werk plannen zonder door alle stations te hoeven zoeken. Er is ook een pagina voor als hij een dagje uit gaat, hier kan hij kiezen uit de grootste stations. Als laatste heb ik een boeken pagina toegevoegd, omdat Marijn van lezen houdt kan hij hier wat aanbevolen boeken vinden.
 
 ### Add nonsense
 
 Door het toevoegen van onzin kan je het toegankelijke ontwerp meer maken dan alleen een functionele website. Hierdoor kom je vaak op interessante en leuke ideeën voor een project.
 
-Op de eind pagina als je je reis gepland heb krijg je een random gifje van een trein te zien, dit voegt qua functionaliteit niks toe maar is toch altijd een leuke verassing aan het einde.
+Op de eindpagina als je je reis gepland heb krijg je een random gifje van een trein te zien, dit voegt qua functionaliteit niks toe maar is toch altijd een leuke verrassing aan het einde.
 
 ## Testen
 
@@ -53,16 +53,16 @@ Op de eind pagina als je je reis gepland heb krijg je een random gifje van een t
 ##### Bevindingen
 
 Marijn maakt vooral gebruik van de hjkl toetsen
-Hij moet minimaal 1 uur van te voren reserveren
+Hij moet minimaal 1 uur van tevoren reserveren
 Als hij vertrekt vanuit Amsterdam de andere plek automatisch op Eindhoven
-Hij heeft geen tijd voor hobbies
+Hij heeft geen tijd voor hobby's
 Dingen die hij wel leuk vindt zijn naar bandjes gaan, bier drinken en boeken lezen.
-Meestal reist hij van huis naar werk en andersom maar 1x per maand gaat hij wel eens ergens
+Meestal reist hij van huis naar werk en andersom, maar 1 keer per maand gaat hij wel eens ergens
 anders heen.
 
 #### Aanpak
 
-Ik ga mijn eerste prototype aanpassen, zo ga ik implementeren dat Marijn de hjkl toetsen kan gebruiken om te navigeren inplaats van de tab toets. Als hij Amsterdam selecteert wil ik dat het andere station automatisch naar Eindhoven veranderd. Ik wil toevoegen dat je de tijd alleen per 15 minuten kunt veranderen.
+Ik ga mijn eerste prototype aanpassen, zo ga ik implementeren dat Marijn de hjkl toetsen kan gebruiken om te navigeren in plaats van de tab toets. Als hij Amsterdam selecteert wil ik dat het andere station automatisch naar Eindhoven veranderd. Ik wil toevoegen dat je de tijd alleen per 15 minuten kunt veranderen.
 
 #### Tweede test
 
@@ -78,7 +78,7 @@ Grote stations eerst of laatste gekozen
 
 #### Aanpak
 
-Ik ga mijn prototype meer op Marijn richten, wat meer van zijn hobbies laten terug komen. Ik wil toevoegen dat je nog meerdere stations kunt kiezen want nu kan je alleen van je werk naar huis en andersom. Ik wil iets van nonsense toeveogen en de tijd wil ik automatisch op 1 uur later dan de huidige tijd hebben.
+Ik ga mijn prototype meer op Marijn richten, wat meer van zijn hobby's laten terug komen. Ik wil toevoegen dat je nog meerdere stations kunt kiezen want nu kan je alleen van je werk naar huis en andersom. Ik wil iets van nonsense toevoegen en de tijd wil ik automatisch op 1 uur later dan de huidige tijd hebben.
 
 ## Conclusie
 
