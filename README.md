@@ -1,139 +1,77 @@
-# Human Centered Design @cmda-minor-web 2021 - 2022
+# NS Datepicker
 
-Human Centered Design is een  methode voor het ontwerpen van gebruiksvriendelijke interactieve toepassingen.
+Een NS reisplanner speciaal voor Marijn.
 
-> What distinguishes Human-Centered Design from other problem-solving approaches is its obsessive focus on understanding the perspective of the person who experiences a problem, their needs, and whether the solution that has been designed for them is truly meeting their needs effectively or not. At its most effective, the very people who experience a problem the most are a constant part of the design process and when possible, become part of the design team itself. - [What Is Human-Centered Design?](https://medium.com/dc-design/what-is-human-centered-design-6711c09e2779)
+## User Needs
 
-Door regelmatig te testen met je doelgroep kom je tot een beter en passend ontwerp. 
-Een Frontend Designer en Developer heeft verstand van interactie, vormgeving én techniek. 
-Als je web technieken beheerst kun je je ideeën snel prototypen en testen in een browser. Je kan dan aanpassingen doorvoeren, uitproberen en weer testen ...
-        
-In het vak Human Centered Design gaan we dingen ontwerpen voor echte mensen. 
-Is er goede interactie? Kan je 'mens' je product op een prettige manier bedienen? 
-Wat voor principes heb je gebruikt en getest? En is het leuk?
+Het project is gemaakt voor Marijn. Marijn reist voor zijn werk van Eindhoven naar Amsterdam en moet zich hiervoor altijd aanmelden odmat hij in een roelstoel zit. Dit aanmelden moet maximaal een uur van te voren.
 
-## Opdracht
+Door zijn motorische stoornis gebruikt hij de computer anders dan mensen zonder een motorische stoornis. Hij maakt veel gebruik van de H J K en L toetsen om te navigeren. Hij vind de huidige datepicker bij de NS priegelig en wilt hier een verbeterde versie van die makkelijker voor hem te gebruiken is.
 
-### Ontwerpen met en voor echte mensen
+Marijn zei dat hij weinig tijd heeft voor hobbies maar wel houdt van bier, lezen een bandjes zien.
 
-Voor dit vak krijg je een ontwerp-opdracht die je gaat maken voor 1 mens. 
-Een echt mens. 
-Je moet je ontwerp 3 keer testen. 
-Door te testen en te itereren ga je je ontwerp verbeteren. 
-Uiteindelijk heb je een ontwerp dat exclusief gemaakt is voor 1 persoon. 
-Een _exclusive design_ ... 
-Wie is deze persoon dan voor wie je dit gaat maken? 
-Wat vindt deze persoon leuk of juist niet? 
-En hoe bedient deze persoon een computer?
+## Design Principles
 
-- [Opdracht - Ontwerpen met en voor echte mensen](course/opdracht-human-centered-design.md)
+### Study situation
 
-### Leerdoelen
+Het is belangrijk om de situatie te bestuderen. Als je weet wat je test persoon kan weet je ook hoe je de website kan bouwen.
 
-- _Leren hoe je (design) principles in een ontwerp kan toepassen._
-- _User needs begrijpen en gebruiken in je ontwerp._
-- _Leren hoe je moet testen en de resultaten gebruiken voor het verbeteren van je ontwerp._
+Mijn eerste aannamen was eigenlijk dat hij de tab toets zou gebruiken, dit bleek bij de eerste test niet zo te zijn. Doordat hij gebruikt maakt van de HJKL toetsen moet je dit dus ook zo bouwen voor hem.
 
-[Rubric](#rubric)
+### Ignore Conventions
 
-## Planning & programma
+De inclusieve principe??? zegt dat we conventies moeten gebruiken die iedereen herkent. Maar deze conventies werken niet altijd voor alle mensen. Deze conventies werken vaak niet voor niet-ontwerpers en mensen met een handicap daarom is het soms goed om deze te negeren.
 
-| Planning  | Woensdag  |  Donderdag | Vrijdag  |
-|---|---|---|---|
-| [Week 1](#week-1---kickoff-en-aannames-testen)  | Kickoff, College exclusive design + Testen | College + Testen | Feedbackgesprekken |
-| [Week 2](#week-2---prototypen-en-testen)  | ~~Koningsdag~~  | College + Testen | Feedbackgesprekken  |
-| ~~Meivakantie~~ |   |  |   |
-| [Week 3](#week-3---prototypen-testen-en-reflecteren)  | College + Testen  |  College + Testen | Beoordelingsgesprekken  |
+Marijn gebruikt bijvoorbeeld de tab toest niet, iets wat wordt geleerd dat mensen die geen muis gebruiken juist wel doen. Hierdoor heb ik dit vervangen en hij met de H toest omhoog kan en de J toets omlaag.
 
+### Prioritise Identity
 
-## Week 1 - Kickoff en aannames testen 
+Het is goed als je iets voor iemand ontwerpt maar nog beter als je het met hem maakt.
 
-Deze week krijg je een college over _Exclusive Design Principles_. Deze Principles ga je toepassen in de opdracht. Op woensdag en donderdag gaan we kennis maken met de echte mensen voor wie we gaan ontwerpen. Je kan dan al een kleine interactieve demo maken om te testen.
+Door de testen kreeg je te zien precies wat wel en niet werkt voor Martijn waardoor je de website voor hem kon maken. Omdat Martijn meestal naar zijn werk reist is er een aparte pagina voor zijn werk. Hiermee kan hij snel een reis naar zijn werk plannen zonder door alle stations te hoeven zoeken. Er is ook een pagina voor als hij een dagje uit gaat, hier kan hij kiezen uit de grooste stations. Als laatste hbe ik een boeken pagina toegevoegd, omdat Marijn van lezen houdt kan hij hier wat aanbevolen boeken vinden.
 
-### Woensdag 20 april
+### Add nonsense
 
-Woensdag is de eerste les van het vak Human Centered Design. Je krijgt een intro college over het vak en Vasilis gaat vertellen over _Exclusive Design_.
+Door het toevoegen van onzin kan je het toegankelijke ontwerp meer maken dan alleen een functionele website. Hierdoor kom je vaak op interessante en leuke ideeën voor een project.
 
-Daarna prototypen en testen.
+Op de eind pagina als je je reis gepland heb krijg je een random gifje van een trein te zien, dit voegt qua functionaliteit niks toe maar is toch altijd een leuke verassing aan het einde.
 
-### Donderdag 21 april
+## Testen
 
-Donderdag begint de les met een college over testen. Deze les gaan we het artikelen [Exclusive Design van Vasilis van Gemert](https://exclusive-design.vasilis.nl/) bespreken.
+### Eerste test
 
-Daarna prototypen en testen.
+##### Bevindingen
 
-### Vrijdag 22 april
+Marijn maakt vooral gebruik van de hjkl toetsen
+Hij moet minimaal 1 uur van te voren reserveren
+Als hij vertrekt vanuit Amsterdam de andere plek automatisch op Eindhoven
+Hij heeft geen tijd voor hobbies
+Dingen die hij wel leuk vindt zijn naar bandjes gaan, bier drinken en boeken lezen.
+Meestal reist hij van huis naar werk en andersom maar 1x per maand gaat hij wel eens ergens
+anders heen.
 
-Feedbackgesprekken in groepen.
+#### Aanpak
 
+Ik ga mijn eerste prototype aanpassen, zo ga ik implementeren dat Marijn de hjkl toetsen kan gebruiken om te navigeren inplaats van de tab toets. Als hij Amsterdam selecteert wil ik dat het andere station automatisch naar Eindhoven veranderd. Ik wil toevoegen dat je de tijd alleen per 15 minuten kunt veranderen.
 
-## Week 2 - Prototypen en testen 
+#### Tweede test
 
-Deze week heb je het tweede gesprek met je mens. Wat ga je testen? Wat wil je weten? Woensdag is het koningsdag, dan is er geen les.
+##### Bevindingen
 
-### Donderdag 28 april
+Weten welke dag van de week het is, vandaag of morgen etc
 
-Donderdag krijg je een college over testen. Voor deze les moet je het artikel [10 Usability Lessons van Steve Krug](https://www.uxbooth.com/articles/10-usability-lessons-from-steve-krugs-dont-make-me-think/) en [How User Scenarios Help To Improve Your UX van Sabina Idler](https://usabilla.com/blog/how-user-scenarios-help-to-improve-your-ux/) lezen.
+Pak huidige tijd +1 uur als default
 
-'s Middags ga je voor de tweede keer prototypen en testen.
+Grote stations eerst of laatste gekozen
 
-### Vrijdag 29 april
+#### Aanpak
 
-Feedbackgesprekken in groepen.
+Ik ga mijn prototype meer op Marijn richten, wat meer van zijn hobbies laten terug komen. Ik wil toevoegen dat je nog meerdere stations kunt kiezen want nu kan je alleen van je werk naar huis en andersom. Ik wil iets van nonsense toeveogen en de tijd wil ik automatisch op 1 uur later dan de huidige tijd hebben.
 
+## Conclusie
 
-## Week 3 - Prototypen, testen en reflecteren
+Je kan met code heel snel een prototype maken een dit elke week verbeteren. Wel vond ik het de eerste week moeilijk wat ik moest doen omdat ik Marijn nog niet ontmoet had. Omdat het voor hem gemaakt wordt en niet precies wist wat hij kon was het moeilijk in te schatten of je dingen als en dropdown kon gebruiken.
 
-In week 3 gaan we verder met testen, itereren en reflecteren. Deze week is de laatste sessie met je mens.
+## Bronnen
 
-### Woensdag 11 mei
-
-Woensdag beginnen we met een college. Voor deze les moet je dit artikel lezen: [Design for Both Needs and Wants: Applying Anderson’s User Experience Hierarchy of Needs](https://thevisualcommunicationguy.com/2018/11/08/design-for-both-needs-and-wants-applying-andersons-user-experience-hierarchy-of-needs/)
-
-Daarna prototypen en testen.
-
-### Donderdag 12 mei
-
-Donderdag gaan we bevindingen van de tests bespreken. 
-
-Daarna prototypen en testen.
-
-### Vrijdag 13 mei
-
-Op vrijdag zijn de beoordelingsgesprekken. Je hebt dan een gesprek waarin we je vorderingen en bevindingen bespreekt. We verwachten dat je op Github je tests en iteraties hebt beschreven. Belangrijk is dat je reflecteert op de leerdoelen van het vak. 
-
-
-
-## Rubric
-
-De opdracht wordt beoordeeld aan de hand van onderstaande rubric. Je moet slagen voor het criterium (middenkolom) om het vak te halen. 
-
-| Ontoereikend  | Criteria  |  Verbetering |
-|---|---|---|
-|  | Readme - In de beschrijving van het project staat de opdracht uitgelegd, is het probleem duidelijk beschreven en hoe het probleem is opgelost. | | 
-|  | Design Principles - Student laat zien hoe de Exclusive Design Principles zijn toegepast in het ontwerp. De principes study situation, prioritise identity, ignore conventions en add nonsense zijn goed uitgelegd. Aan de hand van de principes wordt duidelijk gemaakt hoe deze hebben bijgedragen aan het verbeteren van het ontwerp. | | 
-|  | User Needs - Er is een user scenario geschreven dat aansluit bij de identiteit van de test persoon. Er is een duidelijk en volledig user scenario geschreven dat antwoord geeft op de 4 w-vragen: Who? What? How? en Why? | | 
-|  | Testen - Er is minimaal drie keer getest. Er is een verslaglegging van de tests gedaan waarin de test-opzet wordt behandeld en er is een duidelijke conclusie beschreven met do's en dont's over hoe je goed kan testen. | | 
-|  | Testresultaten - Aan de hand van de tests wordt duidelijk gemaakt hoe deze hebben bijgedragen aan het verbeteren van het ontwerp of hoe dit een volgende keer beter of anders kan. | | 
-
-
-
-
-
-<!-- Add a link to your live demo in Github Pages 🌐-->
-
-<!-- ☝️ replace this description with a description of your own work -->
-
-<!-- replace the code in the /docs folder with your own, so you can showcase your work with GitHub Pages 🌍 -->
-
-<!-- Add a nice poster image here at the end of the week, showing off your shiny frontend 📸 -->
-
-<!-- Maybe a table of contents here? 📚 -->
-
-<!-- How about a section that describes how to install this project? 🤓 -->
-
-<!-- ...but how does one use this project? What are its features 🤔 -->
-
-<!-- Maybe a checklist of done stuff and stuff still on your wishlist? ✅ -->
-
-<!-- How about a license here? 📜 (or is it a licence?) 🤷 -->
+[Exclusive Design](https://exclusive-design.vasilis.nl)
