@@ -20,25 +20,25 @@ Marijn zei dat hij weinig tijd heeft voor hobby's, maar wel houdt van bier, leze
 
 ## Design Principles
 
-### Study situation
+### Study Situation
 
-Het is belangrijk om de situatie te bestuderen. Als je weet wat je test persoon kan weet je ook hoe je de website kan bouwen.
+Het is belangrijk om de situatie te bestuderen. Als je weet wat je test persoon kan weet je ook hoe je de website voor hem kan bouwen.
 
 Mijn eerste aannamen was eigenlijk dat hij de tab toets zou gebruiken, dit bleek bij de eerste test niet zo te zijn. Doordat hij gebruikt maakt van de HJKL toetsen moet je dit dus ook zo bouwen voor hem. Ik had ook niet verwacht dat hij zijn muis zou kunnen gebruiken maar dat kan hij dus wel. 
 
 ### Ignore Conventions
 
-De inclusieve principes zeggen dat we conventies moeten gebruiken die iedereen herkent. Maar deze conventies werken niet altijd voor alle mensen. Deze conventies werken vaak niet voor niet-ontwerpers en mensen met een handicap daarom is het soms goed om deze te negeren.
+De inclusieve principes zeggen dat we conventies moeten gebruiken die iedereen herkent. Maar deze conventies werken niet altijd voor alle mensen. Deze conventies werken vaak niet voor mensen die geen ontwerper zijn en mensen met een handicap daarom is het soms goed om deze te negeren.
 
-Marijn gebruikt bijvoorbeeld de tab toets niet, iets wat wordt geleerd dat mensen die geen muis gebruiken juist wel doen. Hierdoor heb ik dit vervangen en hij met de H toets omhoog kan en de J toets omlaag. Daarnaast heb ik het zo gemaakt dat Marijn niet zelf de stations hoeft in te typen, ik zag dat hij dit wel kan maar erg langzaam ging. Hierdoor heb ik voor een dropdown list gekozen zodat hij sneller een station kan selecteren. Bij de tijd kan je alleen in stappen van 15 minuten selecteren, hierdoor kan hij sneller een tijd kiezen zonder dat hij door alle minuten hoeft te gaan. De tijd staat ook een uur later dan de huidige tijd omdat hij maximaal een uur van te voren de trein moet reserveren. 
+Marijn gebruikt bijvoorbeeld de tab toets niet, iets wat wordt geleerd dat mensen die geen muis gebruiken juist wel doen. Hierdoor heb ik dit vervangen en hij met de H toets omhoog kan en de J toets omlaag. Daarnaast heb ik het zo gemaakt dat Marijn niet zelf de stations hoeft in te typen, ik zag dat hij dit wel kan maar erg langzaam ging. Hierdoor heb ik voor een dropdown list gekozen zodat hij sneller een station kan selecteren. Bij de tijd kan je alleen in stappen van 15 minuten selecteren, hierdoor kan hij sneller een tijd kiezen zonder dat hij door alle minuten hoeft te gaan. De tijd staat ook een uur later dan de huidige tijd omdat hij maximaal een uur van tevoren de trein moet reserveren. 
 
 ### Prioritise Identity
 
-Het is goed als je iets voor iemand ontwerpt, maar nog beter als je het met hem maakt. 
+Dat je weet hoe iemand met een beperking met de website omgaat is niet genoeg, het is handig om de persoon ook te leren kennen. Het is goed als je iets voor iemand ontwerpt, maar nog beter als je het met hem maakt. 
 
 Door de testen kreeg je te zien precies wat wel en niet werkt voor Martijn waardoor je de website voor hem kon maken. Omdat Martijn meestal naar zijn werk reist, is er een aparte pagina voor zijn werk. Hiermee kan hij snel een reis naar zijn werk plannen zonder door alle stations te hoeven zoeken. Er is ook een pagina voor als hij een dagje uit gaat, hier kan hij kiezen uit de grootste stations. Als laatste heb ik een boeken pagina toegevoegd, omdat Marijn van lezen houdt kan hij hier wat aanbevolen boeken vinden.
 
-### Add nonsense
+### Add Nonsense
 
 Door het toevoegen van onzin kan je het toegankelijke ontwerp meer maken dan alleen een functionele website. Hierdoor kom je vaak op interessante en leuke ideeën voor een project.
 
@@ -70,7 +70,7 @@ Ik ga mijn eerste prototype aanpassen, zo ga ik implementeren dat Marijn de hjkl
 
 ##### Bevindingen
 
-- Marijn zou het handig vinden of hij kan zien welke dag van de week het is inplaats van alleen een datum.
+- Marijn zou het handig vinden of hij kan zien welke dag van de week het is, in plaats van alleen een datum.
 - Marijn wil graag dat de tijd standaard 1 uur later is.
 - Het zou handig zijn als de grootte station bovenaan staan of stations die hij als laatste gekozen heeft.
 
@@ -82,7 +82,7 @@ Ik ga mijn prototype meer op Marijn richten, wat meer van zijn hobby's laten ter
 
 Je kan met code heel snel een prototype maken een dit elke week verbeteren. Wel vond ik het de eerste week moeilijk wat ik moest doen omdat ik Marijn nog niet ontmoet had. Omdat het voor hem gemaakt wordt en niet precies wist wat hij kon was het moeilijk in te schatten of je dingen als en dropdown kon gebruiken.
 
-Na de eerste ontmoeting bleek al dat Marijn meer kon dan ik dacht zo kon hij bijvoorbeeld zijn muis wel gebruiken. 
+Na de eerste ontmoeting bleek al dat Marijn meer kan dan ik dacht, zou kunnen, zo kan hij bijvoorbeeld zijn muis wel gebruiken. Als je bij een test iets was vergeten te vragen was het een beetje gokken of het zou werken, dan is dus de kans dat je iets maakt wat helemaal niet werkt. Door het zien van de test van andere klasgenoten kwam je vaak ook al tot nieuwe inzichten, want ook al had je het zelf nog niet in je website je wist wel of je iets wel of niet kon toepassen. 
 
 Ik heb geleerd dat het belangrijk is om te weten dat niet iedereen een computer hetzelfde gebruikt en dat de standaard design principes niet op iedereen van toepassing zijn. Als je met je doel groep blijft testen kom je snel op nieuwe bevindingen die je website kunnen verbeteren. 
 
