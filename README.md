@@ -88,6 +88,6 @@ Ik heb geleerd dat het belangrijk is om te weten dat niet iedereen een computer 
 
 ## Bronnen
 
-[Exclusive Design](https://exclusive-design.vasilis.nl)
-[GIPHY API](https://developers.giphy.com)
-[New York Times Books API](https://developer.nytimes.com/docs/books-product/1/overview)
+* [Exclusive Design](https://exclusive-design.vasilis.nl)
+* [GIPHY API](https://developers.giphy.com)
+* [New York Times Books API](https://developer.nytimes.com/docs/books-product/1/overview)
