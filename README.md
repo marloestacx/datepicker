@@ -64,7 +64,7 @@ anders heen.
 
 Ik ga mijn eerste prototype aanpassen, zo ga ik implementeren dat Marijn de hjkl toetsen kan gebruiken om te navigeren in plaats van de tab toets. Als hij Amsterdam selecteert wil ik dat het andere station automatisch naar Eindhoven veranderd. Ik wil toevoegen dat je de tijd alleen per 15 minuten kunt veranderen.
 
-#### Tweede test
+### Tweede test
 
 <img src="https://user-images.githubusercontent.com/24413936/168117851-17778ba2-03e9-47c0-9ee6-844af5906107.png" alt="drawing" width="600"/>
 
