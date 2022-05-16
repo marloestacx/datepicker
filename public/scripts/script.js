@@ -4,6 +4,13 @@ window.onload = () => {
   if (display !== null) {
     getValues();
   }
+
+  if (
+    window.location.pathname === "/train" ||
+    window.location.pathname === "/trainwork"
+  ) {
+    getInput();
+  }
 };
 
 //time +1 hour
@@ -31,7 +38,7 @@ if (
   });
 }
 
-// fill input fields
+// fill end screen
 const getValues = () => {
   const display = document.getElementById("items");
 
@@ -39,6 +46,7 @@ const getValues = () => {
   var time = localStorage.getItem("time");
   var departure = localStorage.getItem("departure");
   var arrive = localStorage.getItem("arrive");
+
   display.innerHTML =
     "<h2>" +
     day +
@@ -51,11 +59,33 @@ const getValues = () => {
     "</h2>";
 };
 
+// get input train
+function getInput() {
+  var departure = localStorage.getItem("departure");
+  var arrive = localStorage.getItem("arrive");
+  var departureInput = document.getElementById("departure");
+  var arriveInput = document.getElementById("arrive");
+
+  if (window.location.pathname === "/trainwork") {
+    if (departure == "Eindhoven Centraal") {
+      departureInput.value = "Amsterdam Centraal";
+    } else if (departure == "Amsterdam Centraal") {
+      departureInput.value = "Eindhoven Centraal";
+    }
+  } else if (window.location.pathname === "/train") {
+    departureInput.value = arrive;
+
+    if (arriveInput.value == departureInput.value) {
+      arriveInput.value = departure;
+    }
+  }
+}
+
 // save to localstorage
 const saveValues = () => {
   var days = document.getElementById("days");
-  var departure = document.getElementById("departure");
   var arrive = document.getElementById("arrive");
+  var departure = document.getElementById("departure");
   const inputs = document.querySelectorAll("input");
 
   // save text fields
@@ -64,8 +94,19 @@ const saveValues = () => {
   });
 
   localStorage.setItem("day", days.value);
-  localStorage.setItem("arrive", arrive.value);
   localStorage.setItem("departure", departure.value);
+
+  if (window.location.pathname === "/trainwork") {
+    if (document.getElementById("departure").value == "Eindhoven Centraal") {
+      localStorage.setItem("arrive", "Amsterdam Centraal");
+    } else if (
+      document.getElementById("departure").value == "Amsterdam Centraal"
+    ) {
+      localStorage.setItem("arrive", "Eindhoven Centraal");
+    }
+  } else {
+    localStorage.setItem("arrive", arrive.value);
+  }
 };
 
 if (
@@ -225,19 +266,4 @@ if (window.location.pathname === "/books") {
       }
     }
   };
-}
-
-// dropdown
-function changePlaceA() {
-  if (document.getElementById("departure").value == "Amsterdam")
-    document.getElementById("arrive").value = "Eindhoven";
-  else if (document.getElementById("departure").value == "Eindhoven")
-    document.getElementById("arrive").value = "Amsterdam";
-}
-
-function changePlaceB() {
-  if (document.getElementById("arrive").value == "Eindhoven")
-    document.getElementById("departure").value = "Amsterdam";
-  else if (document.getElementById("arrive").value == "Amsterdam")
-    document.getElementById("departure").value = "Eindhoven";
 }
