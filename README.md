@@ -36,13 +36,13 @@ Marijn gebruikt bijvoorbeeld de tab toets niet, iets wat wordt geleerd dat mense
 
 Dat je weet hoe iemand met een beperking met de website omgaat is niet genoeg, het is handig om de persoon ook te leren kennen. Het is goed als je iets voor iemand ontwerpt, maar nog beter als je het met hem maakt. 
 
-Door de testen kreeg je te zien precies wat wel en niet werkt voor Martijn waardoor je de website voor hem kon maken. Omdat Martijn meestal naar zijn werk reist, is er een aparte pagina voor zijn werk. Hiermee kan hij snel een reis naar zijn werk plannen zonder door alle stations te hoeven zoeken. Er is ook een pagina voor als hij een dagje uit gaat, hier kan hij kiezen uit de grootste stations. Als laatste heb ik een boeken pagina toegevoegd, omdat Marijn van lezen houdt kan hij hier wat aanbevolen boeken vinden.
+Door de testen kreeg je te zien precies wat wel en niet werkt voor Martijn waardoor je de website voor hem kon maken. Omdat Martijn meestal naar zijn werk reist, is er een aparte pagina voor zijn werk. Hiermee kan hij snel een reis naar zijn werk plannen zonder door alle stations te hoeven zoeken, hij kiest zijn begin station en het einstation is automatisch het andere station. Er is ook een pagina voor als hij een dagje uit gaat, hier kan hij kiezen uit de grootste stations. Hier wordt opgeslagen wat zijn laatste eind station was en wordt de volgende keer automatisch als begin station geselecteerd.
 
 ### Add Nonsense
 
 Door het toevoegen van onzin kan je het toegankelijke ontwerp meer maken dan alleen een functionele website. Hierdoor kom je vaak op interessante en leuke ideeën voor een project.
 
-Op de eindpagina als je je reis gepland heb krijg je een random gifje van een trein te zien, dit voegt qua functionaliteit niks toe maar is toch altijd een leuke verrassing aan het einde.
+Op de eindpagina als je je reis gepland heb krijg je een random gifje van een trein te zien, dit voegt qua functionaliteit niks toe maar is toch altijd een leuke verrassing aan het einde. Vanaf de homepagina kan je kiezen om een lijst van aanbevolen boeken te zien, dit is een lisjt van de top 15 boeken van de New York Times bestsellerlijst. Als je op een van de boeken klikt ga je automatisch naar de Amazon pagina zodat je het boek meteen kan kopen. 
 
 ## Testen
 
