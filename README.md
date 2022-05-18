@@ -48,7 +48,7 @@ Op de eindpagina als je je reis gepland heb krijg je een random gifje van een tr
 
 ### Eerste test
 
-<img src="https://user-images.githubusercontent.com/24413936/168117695-1b3218dc-b119-4ded-b84c-c2b903d56fff.png" alt="drawing" width="600"/>
+<img src="https://user-images.githubusercontent.com/24413936/168117695-1b3218dc-b119-4ded-b84c-c2b903d56fff.png" alt="test1" width="600"/>
 
 ##### Bevindingen
 
@@ -66,7 +66,7 @@ Ik ga mijn eerste prototype aanpassen, zo ga ik implementeren dat Marijn de hjkl
 
 ### Tweede test
 
-<img src="https://user-images.githubusercontent.com/24413936/168117851-17778ba2-03e9-47c0-9ee6-844af5906107.png" alt="drawing" width="600"/>
+<img src="https://user-images.githubusercontent.com/24413936/168117851-17778ba2-03e9-47c0-9ee6-844af5906107.png" alt="test2" width="600"/>
 
 ##### Bevindingen
 
@@ -77,6 +77,21 @@ Ik ga mijn eerste prototype aanpassen, zo ga ik implementeren dat Marijn de hjkl
 #### Aanpak
 
 Ik ga mijn prototype meer op Marijn richten, wat meer van zijn hobby's laten terug komen. Ik wil toevoegen dat je nog meerdere stations kunt kiezen want nu kan je alleen van je werk naar huis en andersom. Ik wil iets van nonsense toevoegen en de tijd wil ik automatisch op 1 uur later dan de huidige tijd hebben.
+
+### Derde test
+
+<img src="https://user-images.githubusercontent.com/24413936/168117422-6e7591ce-df9f-4bfb-a726-863fadf83246.png" alt="test3" width="600"/>
+
+##### Bevindingen
+
+Doordat ik de derde test met Martijn gemist had moest ik mijn mondeling als een derde test zien.
+
+- Je hebt eigenlijk maar 1 input veld nodig bij werk 
+- Bij een dagje weg zou je de laatste keuzen als vertrek plek kunnen zien
+
+#### Aanpak
+
+Ik ga de laatste bevindngen toepassen in mijn prototype. Zo ga ik bij het werk het aankomst station weghalen en bij het dagje weg toevoegen dat hij je laatste eindstation nu automtisch als vertrek station instelt. 
 
 ## Conclusie
 
