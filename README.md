@@ -4,7 +4,7 @@ Een NS reisplanner speciaal voor Marijn.
 
 ![reisplanner1](https://user-images.githubusercontent.com/24413936/168117429-765146b7-f2b4-4862-aff8-f1f7e655d1b0.png)
 
-![reisplanner2](https://user-images.githubusercontent.com/24413936/168117422-6e7591ce-df9f-4bfb-a726-863fadf83246.png)
+![reisplanner5](https://user-images.githubusercontent.com/24413936/169030846-761f7a77-0fe2-4ff2-9860-ae5c60f8ab92.png)
 
 ![reisplanner3](https://user-images.githubusercontent.com/24413936/168117413-cbb4f53b-86bd-4789-8a42-5fe3ef83eaa8.png)
 
